@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reportes de Monitoreo • Coopelesca</title>
+  <style>
+    body { 
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; 
+      margin: 0; 
+      background: #0e7490; 
+    }
+    .wrap { 
+      max-width: 920px; 
+      margin: 0 auto; 
+      padding: 32px; 
+    }
+    header { 
+      background: linear-gradient(135deg,#00a8cc,#0891b2); 
+      color: #fff; 
+      padding: 32px; 
+      border-radius: 16px; 
+    }
+    h1 { 
+      margin: 0 0 8px 0; 
+      font-size: 28px; 
+    }
+    p { 
+      margin: 0; 
+      opacity: .9; 
+    }
+    .cards { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); 
+      gap: 16px; 
+      margin-top: 24px; 
+    }
+    .card { 
+      background: #fff; 
+      border-radius: 14px; 
+      padding: 16px; 
+      box-shadow: 0 6px 18px rgba(0,0,0,.08); 
+    }
+    .card h2 { 
+      margin: 0 0 6px 0; 
+      font-size: 18px; 
+      color: #0e7490; 
+    }
+    .card p { 
+      margin: 0 0 10px 0; 
+      color: #334155; 
+      font-size: 14px; 
+    }
+    .btn { 
+      display: inline-block; 
+      padding: 10px 14px; 
+      background: #00a8cc; 
+      color: #fff; 
+      border-radius: 8px; 
+      text-decoration: none; 
+      font-weight: 600; 
+    }
+    footer { 
+      color: #e2e8f0; 
+      font-size: 12px; 
+      text-align: center; 
+      margin-top: 28px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Reportes de Monitoreo</h1>
+      <p>HTML estáticos listos para publicación en un hosting de archivos estáticos.</p>
+    </header>
+    <div class="cards">
+      <div class="card">
+        <h2>Monitor TV Box Performance</h2>
+        <p>Dashboard con CPU, RAM y NetPlus TV.</p>
+        <a class="btn" href="monitor_tvbox.html" target="_blank" rel="noopener">Abrir reporte</a>
+      </div>
+      <div class="card">
+        <h2>Monitor de Red iperf3</h2>
+        <p>Throughput, latencia y pérdida de paquetes.</p>
+        <a class="btn" href="monitor_iperf3.html" target="_blank" rel="noopener">Abrir reporte</a>
+      </div>
+    </div>
+    <footer>© 2025 Coopelesca • Site estático para publicación</footer>
+  </div>
+</body>
+</html>
